@@ -1,0 +1,72 @@
+
+	class toy
+{
+public string title;
+public stirng agecatedory;
+}
+class toy: boll
+{
+public string material;
+public string size;
+public string haircolor;
+}
+class  toy: car
+{
+public string type;
+public string colour;
+public string speed;
+}
+class Program
+{
+static void Main(string[]args)
+{
+
+
+
+
+    internal class Program
+    {
+        class toys
+        {
+            public string name;
+            public string agecatedory;
+            public void Mariam()
+            {
+                Console.WriteLine("возрастная категория");
+            }
+        }
+        class doll : toys
+        {
+            public string material;
+            public string size;
+            public string haircolor;
+                public void Mariam()
+            {
+                Console.WriteLine("цвет волос");
+            }
+        }
+        class toycar : toys
+        {
+            public string type;
+            public string color;
+            public string speed;
+            public void Mariam()
+            {
+                Console.WriteLine("скорость");
+            }
+        }
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Toys1.Mariam();
+                Toys2.Mariam();
+                Toys3.Mariam();
+            }
+        }
+        static void Main(string[] args)
+        {
+        }
+    }
+}
+
